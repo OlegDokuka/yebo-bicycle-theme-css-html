@@ -1,0 +1,152 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header_container {
+  height: 800px;
+  background-image: url("../img/menu_background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.header_menu {
+  /* box-size */
+  width: 618px;
+  margin: 0px auto 0px auto;
+  padding-top: 35px;
+
+  /* text */
+  text-transform: uppercase;
+  color: #4d4959;
+
+  /* box-view */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_menu_logo {
+  width: 94px;
+  height: 85px;
+  background-image: url("../img/logo.png");
+}
+
+/* about us block styles */
+
+.about_us_container {
+  height: 469px;
+  padding-top: 117px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 34px;
+  padding-right: 34px;
+  background-color: #f7f7f7;
+}
+
+.about_us_icon {
+  margin: 17px;
+  width: 52px;
+  height: 43px;
+  background-image: url("../img/about_us_icon.png");
+}
+
+.about_us_title {
+  color: #353738;
+  margin: 17px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.about_us_paragraph {
+  max-width: 1084px;
+  text-align: center;
+  font-weight: lighter;
+  color: #848789;
+}
+
+/* work block styles */
+
+.work_container {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.work_left_block {
+  width: 66%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/work_block_background1.png");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work_icon {
+  width: 112px;
+  height: 118px;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/work_icon.png");
+}
+
+.work_right_block {
+  width: 34%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.work_description {
+  height: 100%;
+  padding: 5% 13% 5% 13%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  flex-grow: 1;
+}
+
+.work_description_icon {
+  width: 41px;
+  height: 30px;
+  background-image: url("../img/work_description_icon.png");
+}
+
+.work_description_title {
+  color: #353738;
+}
+
+.work_description_text {
+  text-align: justify;
+  color: #848789;
+}
+
+.work_description_end_line {
+  height: 1px;
+  width: 50px;
+  background-image: url("../img/paragraph_end_line.png");
+}
+
+.work_description_extra {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work_description_image {
+  width: 100%;
+}
+
+.work_work_bottom_arrow {
+  position: absolute;
+}
